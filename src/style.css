@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply font-bold text-[#2c3e50] active:text-[#42b983] underline;
+  }
+
+  .event-card {
+    @apply p-5 mb-[18px] w-[250px] border border-solid text-[#39495c] transition-all duration-200 ease-linear cursor-pointer hover:scale-[1.01] hover:shadow-lg grid gap-4;
+  }
+}
